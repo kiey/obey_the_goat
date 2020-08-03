@@ -50,3 +50,31 @@ console.warn: services.settings: main/whats-new-panel sync interrupted by shutdo
 1596446186166	Marionette	INFO	Listening on port 33739
 1596446186207	Marionette	WARN	TLS certificate errors will be ignored for this session
 1596446189443	Marionette	INFO	Stopped listening on port 33739
+1596447878897	geckodriver	INFO	Listening on 127.0.0.1:39527
+1596447878903	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewO1k0H"
+1596447882284	Marionette	INFO	Listening on port 43517
+1596447882313	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596447885591	Marionette	INFO	Stopped listening on port 43517
+1596447940201	geckodriver	INFO	Listening on 127.0.0.1:40993
+1596447940209	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenjz8TH"
+1596447943538	Marionette	INFO	Listening on port 34191
+1596447943621	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596447943936	Marionette	INFO	Stopped listening on port 34191
+1596447994150	geckodriver	INFO	Listening on 127.0.0.1:37975
+1596447994157	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepqaIKp"
+1596447997567	Marionette	INFO	Listening on port 39203
+1596447997671	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+1596448001032	Marionette	INFO	Stopped listening on port 39203
+1596448057782	geckodriver	INFO	Listening on 127.0.0.1:55263
+1596448057790	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileccjzLH"
+1596448061117	Marionette	INFO	Listening on port 41273
+1596448061202	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+1596448064588	Marionette	INFO	Stopped listening on port 41273
+1596448221295	geckodriver	INFO	Listening on 127.0.0.1:54199
+1596448221302	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilezePgAU"
+1596448224667	Marionette	INFO	Listening on port 38291
+1596448224714	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 208: Error: Invalid autocomplete selectedIndex
+1596448228117	Marionette	INFO	Stopped listening on port 38291
