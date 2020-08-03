@@ -1,3 +1,7 @@
 db.sqlite3
 
 geckodriver.log
+
+lists/__pycache__/
+
+superlists/__pycache__/
