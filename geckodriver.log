@@ -40,3 +40,13 @@ console.warn: services.settings: main/whats-new-panel sync interrupted by shutdo
 1596300936374	Marionette	INFO	Listening on port 40855
 1596300936447	Marionette	WARN	TLS certificate errors will be ignored for this session
 1596300936755	Marionette	INFO	Stopped listening on port 40855
+1596444281703	geckodriver	INFO	Listening on 127.0.0.1:56683
+1596444282712	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileN2hrwK"
+1596444286206	Marionette	INFO	Listening on port 37887
+1596444286221	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596444286468	Marionette	INFO	Stopped listening on port 37887
+1596446182689	geckodriver	INFO	Listening on 127.0.0.1:58427
+1596446182695	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile71tGSu"
+1596446186166	Marionette	INFO	Listening on port 33739
+1596446186207	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596446189443	Marionette	INFO	Stopped listening on port 33739
