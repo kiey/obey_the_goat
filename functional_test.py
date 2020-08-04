@@ -1,8 +1,11 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import unittest
+<<<<<<< HEAD
 import time
 
+=======
+>>>>>>> master
 
 class NewVisitorTest(unittest.TestCase):
 
@@ -41,19 +44,30 @@ class NewVisitorTest(unittest.TestCase):
         # When she hits enter, the page updates, and now the page lists
         # "1: Buy peacock feathers" as an item in a to-do list table
         inputbox.send_keys(Keys.ENTER)
+<<<<<<< HEAD
         time.sleep(1)
         self.check_for_row_in_list_table('1: Buy peacock feathers')
 
+=======
+        table = self.browser.find_element_by_id('id_list_table')
+        rows = table.find_elements_by_tag_name('tr')
+        self.assertTrue(any(row.text == '1: Buy peacock feathers' for row in rows))
+>>>>>>> master
 
         # There is still a text box inviting her to add another item. She
         # enters "Use peacock feathers to make a fly" (Edith is very
         # methodical)
+<<<<<<< HEAD
 
         inputbox = self.browser.find_element_by_id('id_new_item')
         inputbox.send_keys('Use peacock feathers to make a fly')
         inputbox.send_keys(Keys.ENTER)
         time.sleep(1)
         
+=======
+        self.fail('Finish the test!')
+
+>>>>>>> master
         # The page updates again, and now shows both items on her list
         self.check_for_row_in_list_table('1: Buy peacock feathers')
         self.check_for_row_in_list_table('2: Use peacock feathers to make a fly')
@@ -61,5 +75,12 @@ class NewVisitorTest(unittest.TestCase):
 
 
 
+<<<<<<< HEAD
 if __name__ == '__main__':
     unittest.main(warnings='ignore')
+=======
+
+if __name__ == '__main__': #
+    unittest.main(warnings='ignore')
+
+>>>>>>> master
