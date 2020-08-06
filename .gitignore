@@ -7,3 +7,7 @@ lists/__pycache__/
 superlists/__pycache__/
 
 *.log
+
+functional_tests/__pycache__/
+
+*.pyc
